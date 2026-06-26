@@ -2,7 +2,9 @@ import pygame
 import time
 import sys
 
-# pygame setup
+# TODO: Add different themes
+# TODO: Add a Tic-Tac-Toe engine
+
 pygame.init()
 click_sound = pygame.mixer.Sound("click.wav")
 game_over_sound = pygame.mixer.Sound("game over.mp3")
@@ -25,12 +27,6 @@ bg = (40, 40, 40)
 button_color = (100, 100, 100)
 light_button_color = (200, 200, 200)
 in_game = False
-
-
-# TODO: Game over screen
-# TODO: Menu system
-# TODO: Add different themes
-# TODO: Add a Tic-Tac-Toe engine
 
 map = [
     [None]*3,
