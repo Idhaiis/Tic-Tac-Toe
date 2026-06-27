@@ -48,8 +48,3 @@ Make sure `click.wav` and `game over.mp3` are in the same directory as the scrip
 ## AI — Minimax Algorithm
 
 The bot uses the **Minimax algorithm** to evaluate every possible future game state and always picks the optimal move. This means the bot is unbeatable — the best you can do against it is a draw.
-
-## TODO
-
-- Add different visual themes
-- Improve AI response time with alpha-beta pruning
